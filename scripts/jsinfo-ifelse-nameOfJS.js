@@ -1,8 +1,8 @@
-response = prompt('What is the "official" name of JavaScript?');
-console.log(response);
+let response = prompt('What is the "official" name of JavaScript?');
+console.log(`The user entered: ${response}`);
 
-if (response === "ECMAScript") {
-    console.log("Right!")
+if (response.toLowerCase() === "ecmascript") {
+    alert("Right!")
 } else {
-    console.log("You don't know? ECMASCript!")
+    alert(`You don't know? "ECMASCript!"`)
 }
