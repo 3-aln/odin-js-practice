@@ -1,4 +1,4 @@
-let response = prompt('What is the "official" name of JavaScript?');
+let response = prompt('What is the "official" name of JavaScript?', '');
 console.log(`The user entered: ${response}`);
 
 if (response.toLowerCase() === "ecmascript") {
