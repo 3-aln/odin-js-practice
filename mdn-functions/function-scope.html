@@ -16,10 +16,16 @@ https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Fu
 
     function a() {
       const y = 2;
+      // output(y);   // this works
+      // output(x);   // this works (global variables are always available)
+      output(z);   // nope
     }
 
     function b() {
       const z = 3;
+      // output(z);   // this works
+      // output(x);   // this works (global variables are always available)
+      output(y);   // nope
     }
 
     function output(value) {
