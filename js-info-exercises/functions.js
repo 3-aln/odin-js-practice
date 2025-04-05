@@ -8,7 +8,7 @@ function checkAge(age) {
   }
 }
 
-// Rewrite without if, in a single line.
+// Rewrite without if, in a single line:
 
 // 1. Using question mark operator:
 
