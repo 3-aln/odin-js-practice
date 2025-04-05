@@ -12,12 +12,12 @@ function checkAge(age) {
 
 // 1. Using question mark operator:
 function checkAge1(age) {
-  return age > 18 ? true : confirm('Did parents allow you?');
+  return (age > 18) ? true : confirm('Did parents allow you?');
 }
 
 // 2. Using OR ||
 function checkAge2(age) {
-  return age > 18 || confirm('Did parents allow you?');
+  return (age > 18) || confirm('Did parents allow you?');
 }
 
 // Testing
