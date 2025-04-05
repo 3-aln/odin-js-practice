@@ -1,4 +1,4 @@
-// https://javascript.info/function-basics#tasks
+// https://javascript.info/function-basics#rewrite-the-function-using-or
 
 function checkAge(age) {
   if (age > 18) {
@@ -23,4 +23,7 @@ function checkAge2(age) {
 // Testing
 // console.log(checkAge(16));
 // console.log(checkAge1(19));
-console.log(checkAge2(18));
+// console.log(checkAge2(18));
+
+
+// https://javascript.info/function-basics#function-min-a-b
