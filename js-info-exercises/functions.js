@@ -32,6 +32,11 @@ function min(a, b) {
 }
 
 // Testing
-console.log(min(2, 5));
-console.log(min(3, -1));
-console.log(min(1, 1));
+// console.log(min(2, 5));
+// console.log(min(3, -1));
+// console.log(min(1, 1));
+
+
+// https://javascript.info/function-basics#function-pow-x-n
+
+// Skip for now; loops covered later.
