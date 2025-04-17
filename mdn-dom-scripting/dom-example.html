@@ -6,6 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple DOM example</title>
+    <style>
+      .highlight {
+        color: white;
+        background-color: black;
+        padding: 10px;
+        width: 250px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
       <section>
@@ -38,6 +47,16 @@
         sect.removeChild(linkPara); // when you have refs to both node and its parent
         // linkPara.remove(); // when you only have a ref to the node itself
         // linkPara.parentNode.removeChild(linkPara); // for older browsers
+
+        // Manipulate styles by setting properties of the object
+        // para.style.color = "white";
+        // para.style.backgroundColor = "black";
+        // para.style.padding = "10px";
+        // para.style.width = "250px";
+        // para.style.textAlign = "center";
+
+        // Manipulate styles by setting a class attribute on the paragraph
+        para.setAttribute("class", "highlight");
       </script>
   </body>
 </html>
