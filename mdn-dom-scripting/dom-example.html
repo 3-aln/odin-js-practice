@@ -30,6 +30,14 @@
         );
         const linkPara = document.querySelector("p");
         linkPara.appendChild(text);
+
+        // Move paragraph with link to the bottom of the section
+        sect.appendChild(linkPara);
+
+        // Remove the paragraph node from the section (different ways)
+        sect.removeChild(linkPara); // when you have refs to both node and its parent
+        // linkPara.remove(); // when you only have a ref to the node itself
+        // linkPara.parentNode.removeChild(linkPara); // for older browsers
       </script>
   </body>
 </html>
