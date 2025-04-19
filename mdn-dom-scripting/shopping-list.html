@@ -31,6 +31,15 @@
     </ul>
 
     <script>
+      const ul = document.querySelector("ul");
+      const input = document.querySelector("input");
+      const addItemButton = document.querySelector("button");
+      
+      let inputVal;
+      addItemButton.addEventListener("click", () => {
+        inputVal = input.value;
+        input.value = '';
+      });
 
     </script>
   </body>
