@@ -49,6 +49,10 @@
         span.textContent = inputVal;
         deleteButton.textContent = 'Delete';
         ul.appendChild(li);
+
+        deleteButton.addEventListener("click", () => {
+          ul.removeChild(li);
+        })
       });
 
     </script>
