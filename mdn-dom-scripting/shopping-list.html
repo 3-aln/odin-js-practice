@@ -39,6 +39,16 @@
       addItemButton.addEventListener("click", () => {
         inputVal = input.value;
         input.value = '';
+        
+        // Add the new item as a bulleted list item with a Delete button
+        const li = document.createElement("li");
+        const span = document.createElement("span");
+        const deleteButton = document.createElement("button");
+        li.appendChild(span);
+        li.appendChild(deleteButton);
+        span.textContent = inputVal;
+        deleteButton.textContent = 'Delete';
+        ul.appendChild(li);
       });
 
     </script>
