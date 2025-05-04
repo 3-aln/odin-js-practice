@@ -2,6 +2,7 @@ console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
 console.log(camelize("-webkit-transition"));
 
+// Change dash
 function camelize(str) {
   // Create array of strings, split by '-'
   splitStrs = str.split("-");
